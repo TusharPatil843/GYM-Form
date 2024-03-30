@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arithmatic</title>
+  </head>
+  <body>
+    <center>
+      <form id="id1">
+        <label>Enter 1st No:</label>
+        <input type="text" required name="nm1" id="a" />
+        <br /><br />
+        <label>Enter 2st No:</label>
+        <input type="text" required name="nm2" id="b" />
+        <br /><br />
+        <input type="button" class="bt" name="bt1" placeholder="Addition" onclick="addition()"  value="Addition"/>
+        <input type="button" class="bt" name="bt2" placeholder="Subtraction" onclick="sub()"  value="Subtraction"/>
+        <input type="button" class="bt" name="bt3" placeholder="Multiplication" onclick="mul()"  value="Multiplication"/>
+
+        <!-- <button onclick="addition()">Add</button>
+           <div class="screen" id="screen1"></div>
+             <input type="text" required name="nm2" id="c"> -->
+      </form>
+    </center>
+
+    <footer>
+      <script type="text/javascript">
+        function addition() {
+          let sum, n1, n2;
+          n1 = parseInt(document.getElementById("a").value);
+          n2 = parseInt(document.getElementById("b").value);
+          sum = n1 + n2;
+
+          //return sum;
+          //document.getElementById("c").value=sum;
+          alert(sum);
+        }
+
+        function sub() {
+          let sum, n1, n2;
+          n1 = parseInt(document.getElementById("a").value);
+          n2 = parseInt(document.getElementById("b").value);
+          sum = n1 - n2;
+
+          //return sum;
+          //document.getElementById("c").value=sum;
+          alert(sum);
+        }
+        function mul() {
+          let sum, n1, n2;
+          n1 = parseInt(document.getElementById("a").value);
+          n2 = parseInt(document.getElementById("b").value);
+          sum = n1 * n2;
+
+          //return sum;
+          //document.getElementById("c").value=sum;
+          alert(sum);
+        }
+      </script>
+
+      <style>
+        #id1 {
+          padding: 65px;
+        }
+
+		.bt{
+			background-color: rgb(111, 97, 116);
+			font-weight: bold;
+		}
+      </style>
+    </footer>
+  </body>
+</html>

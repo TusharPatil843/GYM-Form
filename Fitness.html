@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="./Fitness_files/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Fitness_files/css2" rel="stylesheet">
+    
+    <style>
+        body{
+            font-family: 'Bree Serif', serif;
+            
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(img/WhatsApp\ Image\ 2023-03-21\ at\ 10.13.55\ PM.jpeg);
+            /* width: 1400px;  */
+            /* height: 1027px; */
+        }
+
+        .left{
+            position: absolute;
+            left: 60px;
+            top: 15px;
+            display: inline-block;
+            /* border: 2px solid rgb(255, 255, 255); */
+            /* width: 60px; */
+            padding: 5px 25px;
+            
+        }
+
+        .left img{
+            width: 95px;
+            filter: invert(100%);
+
+        }
+
+        .left div{
+            text-align: center;
+            font-size: 30px;
+            /* line-height: 4px; */
+        }
+        
+        .mid{
+            display: block;
+            /* border: 2px solid rgb(255, 255, 255); */
+            margin: 30px auto;
+            width: 36%;
+            font-size: large;
+            padding: 10px;
+        }
+        
+        .right{
+            position: absolute;
+            right: 45px;
+            top: 34px;
+            display: inline-block;
+            /* border: 2px solid rgb(255, 255, 255); */
+
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+            padding: 18px 21px;
+        }
+
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: rgb(194, 184, 184);
+        }
+
+        /* .right a{
+            padding: 4px;
+            margin: 0px;
+            width: 20px;
+            height: 20px;
+        } */
+
+        .right a img{
+            width: 40px;
+        }
+
+        .right a div{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 15px;
+            padding: 4px 4px;
+            /* line-height: 2 px; */
+        }
+
+        .container{
+             border: 4px solid rgb(0, 0, 0);
+            margin: 135px 145px;
+            padding: 60px;
+            width: 42%;
+            border-radius: 18px;
+        }
+
+        .formdata input{
+            text-align: center;
+            display: block;
+            width: 270px;
+            padding: 5px 5px;
+            margin: 13px auto;
+            border: 2px solid black;
+            border-radius: 7px;
+            font-size: 16px;
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        .btn{
+             text-align: center;
+            display: block;
+            width: 100px;
+            padding: 5px 5px;
+            margin: 25px auto;
+            border: 2px solid black;
+            border-radius: 7px;
+            cursor: pointer;
+            color: white;
+            background-color: black;
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        .container button:hover{
+            text-decoration: underline;
+            color: rgb(194, 184, 184);
+
+        }
+
+        .container h2{
+            text-align: center;
+        } 
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Left box for logo and name -->
+        <div class="left">
+            <div><img src="./Fitness_files/istockphoto-1331186720-612x612-removebg-preview.png" alt=""></div>
+            <div>KING FITNESS </div>
+        </div>
+        
+        <!-- Mid box for navigation -->
+        <div class="mid">
+    
+            <ul class="navbar">
+                <li><a href="http://127.0.0.1:5500/index.html#">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">Fitness center</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">About us</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Right box for help/search -->
+        <div class="right">
+            <a href="http://127.0.0.1:5500/index.html#">
+                <img src="./Fitness_files/download-removebg-preview.png" alt="">
+            </a>
+            <div>Insta</div>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Join and lead towards best physique</h2>
+        <form action="http://127.0.0.1:5500/abc.php">
+            <div class="formdata">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="formdata">
+                <input type="text" placeholder="Enter your gender">
+            </div>
+            <div class="formdata">
+                <input type="text" placeholder="Enter your address">
+            </div>
+            <div class="formdata">
+                <input type="text" placeholder="Enter your contact number">
+            </div>
+            <button class="btn">Join now</button>
+        </form>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
